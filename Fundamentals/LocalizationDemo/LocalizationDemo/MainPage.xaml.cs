@@ -31,7 +31,7 @@ public partial class MainPage : ContentPage
 
 		Shell.Current.DisplayAlert("cul",s1+s2+s3+s4+s5+s6,"OK");
 
-		Thread.CurrentThread.CurrentUICulture = new CultureInfo("zh-CN");
+		//Thread.CurrentThread.CurrentUICulture = new CultureInfo("zh-CN");
 
     }
 }
